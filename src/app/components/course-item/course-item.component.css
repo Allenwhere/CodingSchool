@@ -1,0 +1,32 @@
+.course-item {
+    background: white;
+    cursor: pointer;
+    all: unset;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin: 20px 15px 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    transition-duration: 250ms;
+    /* transition: all 0.2s ease-in-out;
+    line-height: 24px; */
+  }
+
+  .course-item:hover {
+    transform: translateY(-8px) translateX(4px);
+    transition-duration: 250ms;
+    box-shadow: -10px 10px rgb(0, 0, 0);
+  }
+
+  .course-item h2{
+    position: relative;
+    top: -15px;
+    left: -30px;
+    color: black;
+  }

@@ -1,0 +1,9 @@
+.course {
+    cursor: pointer;
+    all: unset;
+    /* background: #faeada; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}

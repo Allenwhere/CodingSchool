@@ -1,0 +1,9 @@
+<div class="learn" *ngIf="course">
+    <div class="title">
+        <h1>{{course.name}}</h1>
+    </div>
+    <button>start</button>
+    <h3>About this course</h3>
+    <p>{{course.about}}</p>
+    <app-segment-list [courseId] = "course.id"></app-segment-list>
+</div>

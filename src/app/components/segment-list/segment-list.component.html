@@ -1,0 +1,8 @@
+<div class="segment-list">
+    <h2>Course Progress</h2>
+    <span *ngFor = "let segment of segments">
+        <li>{{segment.name}}</li>
+        <p>{{segment.numLesson}} lesson(s), {{segment.numProject}} project(s), {{segment.numQuiz}} quiz</p>
+        
+    </span>
+</div>
